@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AvaLIBRAS - Videoprovas em Libras</title>
+    <title>AvaLIBRAS - Sistema de Videoprovas em Libras</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -119,8 +119,8 @@
 <body class="bg-gray-100 text-gray-800 leading-relaxed">
 
     <header class="bg-gradient-to-r from-[#06437e] to-[#45a2de] text-white shadow-lg sticky top-0 z-50">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
-            <h1 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-center">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-3">
+            <h1 class="text-xl sm:text-2xl lg:text-3xl font-bold text-center">
                 AvaLIBRAS: <br class="sm:hidden"> Sistema de Videoprovas em Libras para a Educação Básica
             </h1>
         </div>
@@ -145,13 +145,13 @@
             </nav>
         </aside>
 
-        <main class="lg:w-3/4 xl:w-4/5 space-y-12">
+        <main class="lg:w-3/4 xl:w-4/5 space-y-8">
             <section id="sobre-projeto" class="content-section bg-white p-6 rounded-lg shadow-md">
-                <h2 class="text-2xl font-semibold text-[#06437e] mb-4">Sobre o Projeto</h2>
-                <p class="mb-4">
+                <h2 class="text-xl font-semibold text-[#06437e] mb-3">Sobre o Projeto</h2>
+                <p class="mb-3 text-sm">
                     Este projeto de produto educacional, <strong>atualmente em fase final de desenvolvimento e como parte central da dissertação</strong> de Mestrado Profissional em Tecnologia Educacional da Universidade Federal do Ceará (UFC), aborda a busca por uma avaliação justa e inclusiva para estudantes surdos na educação básica. A pesquisa se concentra na escassez de ferramentas avaliativas que respeitem a Língua Brasileira de Sinais (Libras), a língua natural desses estudantes.
                 </p>
-                <p class="mb-4">
+                <p class="mb-3 text-sm">
                     O objetivo principal é desenvolver e avaliar um sistema de videoprovas que ofereça acesso às questões tanto na versão escrita tradicional quanto em Libras, promovendo acessibilidade, inclusão e equidade na avaliação da aprendizagem. A investigação explora o contexto histórico e legal da educação de surdos, a importância da Libras e o potencial das tecnologias assistivas. Espera-se que este trabalho contribua com subsídios teóricos e práticos para políticas e práticas pedagógicas inclusivas, resultando em um software acessível e eficaz para a avaliação em Libras.
                 </p>
                 <div>
@@ -165,31 +165,31 @@
             </section>
 
             <section id="sistema-videoprovas" class="content-section bg-white p-6 rounded-lg shadow-md">
-                <h2 class="text-2xl font-semibold text-[#06437e] mb-4">O Sistema de Videoprovas em Libras</h2>
-                <p class="mb-6">
+                <h2 class="text-xl font-semibold text-[#06437e] mb-3">O Sistema de Videoprovas em Libras</h2>
+                <p class="mb-4 text-sm">
                     O projeto resultou no desenvolvimento de um sistema composto por dois softwares principais: um para a <strong>criação</strong> de videoprovas e outro para a <strong>aplicação</strong> dessas provas aos estudantes. Esta inovação visa promover a equidade na avaliação, empoderando professores, intérpretes e, principalmente, os estudantes surdos.
                 </p>
 
-                <article id="software-criacao" class="mb-8">
-                    <h3 class="text-xl font-semibold text-[#06437e] mb-3">1. Criador AvaLIBRAS (Software de Criação de Videoprovas)</h3>
-                    <p class="mb-4">
+                <article id="software-criacao" class="mb-6">
+                    <h3 class="text-lg font-semibold text-[#06437e] mb-2">1. Criador AvaLIBRAS (Software de Criação de Videoprovas)</h3>
+                    <p class="mb-3 text-sm">
                         O "Criador AvaLIBRAS" é uma aplicação desktop desenvolvida para empoderar professores e intérpretes na elaboração de videoprovas em Libras. Ele oferece um ambiente completo para gerenciar projetos de provas, adicionar questões, manipular vídeos, adicionar overlays de imagem e definir os marcadores temporais para as alternativas, culminando na exportação de provas prontas para aplicação.
                     </p>
                     
-                    <h4 class="text-lg font-medium text-gray-700 mt-4 mb-2">Principais Características e Funcionalidades:</h4>
-                    <ul class="list-disc list-inside space-y-1 mb-4 pl-4 text-gray-700">
+                    <h4 class="text-base font-medium text-gray-700 mt-3 mb-1">Principais Características e Funcionalidades:</h4>
+                    <ul class="list-disc list-inside space-y-0.5 mb-3 pl-4 text-gray-700 text-sm">
                         <li><strong>Gerenciamento de Projetos de Prova:</strong> Nomeação, salvar/importar projeto (`.avaproject`), exportar prova final (`.ava`) com opção de proteção por senha.</li>
                         <li><strong>Gerenciamento de Questões:</strong> Adicionar, editar, excluir, reordenar (arrastar e soltar), visualizar e exportar questões individualmente.</li>
                         <li><strong>Manuseio de Vídeo por Questão:</strong> Upload (MP4), gravação via webcam, player integrado com controles avançados.</li>
                         <li><strong>Marcação Temporal Precisa:</strong> Definição de marcadores temporais para alternativas (A-E) com tooltips e feedback visual automático da seção (Enunciado, Item A, etc.) durante a marcação.</li>
                         <li><strong>Edição de Vídeo Destrutiva (com FFmpeg):</strong>
-                            <ul class="list-disc list-inside space-y-1 ml-6 text-gray-600">
+                            <ul class="list-disc list-inside space-y-0.5 ml-6 text-gray-600 text-sm">
                                 <li>Remoção precisa de trechos indesejados do vídeo.</li>
                                 <!-- <li>União simplificada de múltiplos vídeos (se aplicável como funcionalidade direta ao usuário).</li> -->
                             </ul>
                         </li>
                         <li><strong>Recursos de Overlay de Imagem (Não Destrutivo via Canvas):</strong>
-                            <ul class="list-disc list-inside space-y-1 ml-6 text-gray-600">
+                            <ul class="list-disc list-inside space-y-0.5 ml-6 text-gray-600 text-sm">
                                 <li>Adicionar imagens (PNG, JPG, etc.) sobrepostas ao vídeo da questão.</li>
                                 <li>Configurar tempo de início, duração, posição (superior, inferior, centro, etc.), tamanho (relativo à largura do vídeo) e opacidade do overlay.</li>
                                 <li>Preview da imagem selecionada e ajustes em tempo real no editor.</li>
@@ -200,11 +200,11 @@
                         <li><strong>Registro de Erros:</strong> Sistema interno para registrar erros e facilitar a depuração.</li>
                     </ul>
 
-                    <h4 class="text-lg font-medium text-gray-700 mt-4 mb-2">Utilização do Criador AvaLIBRAS:</h4>
-                    <ol class="list-decimal list-inside space-y-1 mb-4 pl-4 text-gray-700">
+                    <h4 class="text-base font-medium text-gray-700 mt-3 mb-1">Utilização do Criador AvaLIBRAS:</h4>
+                    <ol class="list-decimal list-inside space-y-0.5 mb-3 pl-4 text-gray-700 text-sm">
                         <li><strong>Iniciar um Novo Projeto:</strong> Abrir o software, nomear a prova e aplicar.</li>
                         <li><strong>Adicionar Questões:</strong>
-                            <ul class="list-disc list-inside space-y-1 ml-6 text-gray-600">
+                            <ul class="list-disc list-inside space-y-0.5 ml-6 text-gray-600 text-sm">
                                 <li>Carregar um vídeo existente (MP4) ou gravar um novo vídeo utilizando a webcam.</li>
                                 <li>Definir os marcadores temporais para o enunciado (início do vídeo) e para cada alternativa (A, B, C, D, E) utilizando o player.</li>
                                 <li>Opcionalmente, adicionar e configurar um overlay de imagem sobre o vídeo, ajustando sua aparência e tempo de exibição.</li>
@@ -214,43 +214,43 @@
                         </li>
                         <li><strong>Gerenciar Questões:</strong> Visualizar as questões adicionadas na lista lateral. Selecionar uma questão para visualização, ou realizar um duplo clique para entrar no modo de edição (permitindo alterar vídeo, marcadores e overlay). Reordenar as questões arrastando-as na lista.</li>
                         <li><strong>Salvar e Exportar:</strong>
-                            <ul class="list-disc list-inside space-y-1 ml-6 text-gray-600">
+                            <ul class="list-disc list-inside space-y-0.5 ml-6 text-gray-600 text-sm">
                                 <li>Salvar o projeto atual no formato `.avaproject` a qualquer momento para continuar a edição posteriormente.</li>
                                 <li>Exportar a prova finalizada no formato `.ava`. Durante a exportação, é possível definir uma senha para proteger o arquivo da prova.</li>
                             </ul>
                         </li>
                     </ol>
                     
-                    <a href="SEU_LINK_DE_DOWNLOAD_CRIADOR_AQUI" class="download-button mt-4">
-                        <i class="fas fa-download"></i> Criador AvaLIBRAS - Download Aqui
-                    </a>
-                    <p class="text-sm text-gray-500 mt-1">(Substitua pelo link real)</p>
+                    <div class="download-button mt-4 opacity-50 cursor-not-allowed">
+                        <i class="fas fa-download"></i> Criador AvaLIBRAS - Em Desenvolvimento
+                    </div>
+                    <p class="text-sm text-gray-500 mt-1">Software em fase final de desenvolvimento</p>
                 </article>
 
                 <article id="software-aplicacao">
-                    <h3 class="text-xl font-semibold text-[#06437e] mb-3">2. Aplicador AvaLIBRAS (Software de Aplicação de Videoprovas)</h3>
-                    <p class="mb-4">
+                    <h3 class="text-lg font-semibold text-[#06437e] mb-2">2. Aplicador AvaLIBRAS (Software de Aplicação de Videoprovas)</h3>
+                    <p class="mb-3 text-sm">
                         Este software, denominado "Aplicador AvaLIBRAS" ou "Plataforma AvaLIBRAS - Módulo de Aplicação", é a interface utilizada pelos estudantes para realizar as videoprovas. Ele foi projetado com foco na acessibilidade e usabilidade para estudantes surdos, permitindo que interajam com as questões da prova de forma intuitiva e segura.
                     </p>
 
-                    <h4 class="text-lg font-medium text-gray-700 mt-4 mb-2">Principais Características e Funcionalidades:</h4>
-                    <ul class="list-disc list-inside space-y-1 mb-4 pl-4 text-gray-700">
+                    <h4 class="text-base font-medium text-gray-700 mt-3 mb-1">Principais Características e Funcionalidades:</h4>
+                    <ul class="list-disc list-inside space-y-0.5 mb-3 pl-4 text-gray-700 text-sm">
                         <li><strong>Interface Dedicada e Segura:</strong> Aplicação desktop (Electron) para um ambiente focado na avaliação, minimizando distrações.</li>
                         <li><strong>Importação de Provas:</strong> Carrega provas no formato `.ava`.
-                            <ul class="list-disc list-inside space-y-1 ml-6 text-gray-600">
+                            <ul class="list-disc list-inside space-y-0.5 ml-6 text-gray-600 text-sm">
                                 <li>Suporte para arquivos de prova protegidos por senha, solicitando a senha ao usuário quando necessário.</li>
                                 <li>Exibição de diálogos de progresso durante a extração e carregamento dos arquivos da prova.</li>
                             </ul>
                         </li>
                         <li><strong>Visualização Integrada e Acessível:</strong>
-                            <ul class="list-disc list-inside space-y-1 ml-6 text-gray-600">
+                            <ul class="list-disc list-inside space-y-0.5 ml-6 text-gray-600 text-sm">
                                 <li>Vídeo em Libras em destaque centralizado na tela.</li>
                                 <li>Menu lateral para navegação clara entre as questões da prova.</li>
                                 <li>Exibição de overlays de imagem sobre o vídeo, conforme configurados pelo professor/intérprete no Criador AvaLIBRAS, para fornecer contexto visual adicional.</li>
                             </ul>
                         </li>
                         <li><strong>Controles de Vídeo Acessíveis:</strong> Player de vídeo customizado com funcionalidades essenciais:
-                            <ul class="list-disc list-inside space-y-1 ml-6 text-gray-600">
+                            <ul class="list-disc list-inside space-y-0.5 ml-6 text-gray-600 text-sm">
                                 <li>Play/Pause, barra de progresso, exibição de tempo atual e duração total.</li>
                                 <li>Controle de volume e opção de tela cheia.</li>
                                 <li>Botões de navegação específicos da questão: "INÍCIO" (para o enunciado) e botões para cada "ALTERNATIVA" (A-E), permitindo ao estudante pular diretamente para os trechos relevantes do vídeo.</li>
@@ -258,7 +258,7 @@
                             </ul>
                         </li>
                         <li><strong>Feedback Visual em Tempo Real:</strong>
-                            <ul class="list-disc list-inside space-y-1 ml-6 text-gray-600">
+                            <ul class="list-disc list-inside space-y-0.5 ml-6 text-gray-600 text-sm">
                                 <li>Notificações visuais na tela indicam a seção atual do vídeo que está sendo reproduzida (ex: "ENUNCIADO", "ITEM A").</li>
                                 <li>Feedback visual da velocidade de reprodução selecionada.</li>
                             </ul>
@@ -276,7 +276,7 @@
                         <li><strong>Navegar pelas Questões:</strong> Utilizar o menu lateral para selecionar a questão que deseja visualizar ou responder.</li>
                         <li><strong>Assistir ao Vídeo da Questão:</strong> O vídeo correspondente à questão selecionada será reproduzido automaticamente. Quaisquer imagens de overlay configuradas pelo criador da prova serão exibidas no momento apropriado sobre o vídeo.</li>
                         <li><strong>Utilizar Controles de Vídeo:</strong>
-                            <ul class="list-disc list-inside space-y-1 ml-6 text-gray-600">
+                            <ul class="list-disc list-inside space-y-0.5 ml-6 text-gray-600 text-sm">
                                 <li>Pausar ou retomar a reprodução do vídeo.</li>
                                 <li>Ajustar o volume ou silenciar o áudio.</li>
                                 <li>Expandir o vídeo para tela cheia para melhor visualização.</li>
@@ -286,24 +286,24 @@
                         </li>
                         <li><strong>Observar Feedback Visual:</strong> Prestar atenção às notificações na tela que indicam qual parte da questão está sendo exibida (enunciado ou alternativas) e a velocidade de reprodução atual.</li>
                     </ol>
-                    <a href="SEU_LINK_DE_DOWNLOAD_APLICADOR_AQUI" class="download-button mt-4">
-                        <i class="fas fa-download"></i> Aplicador AvaLIBRAS - Download Aqui
-                    </a>
-                    <p class="text-sm text-gray-500 mt-1">(Substitua pelo link real)</p>
+                    <div class="download-button mt-4 opacity-50 cursor-not-allowed">
+                        <i class="fas fa-download"></i> Aplicador AvaLIBRAS - Em Desenvolvimento
+                    </div>
+                    <p class="text-sm text-gray-500 mt-1">Software em fase final de desenvolvimento</p>
                 </article>
             </section>
 
             <section id="contribuicoes" class="content-section bg-white p-6 rounded-lg shadow-md">
-                <h2 class="text-2xl font-semibold text-[#06437e] mb-4">Contribuições e Impacto Esperado</h2>
-                <p>
+                <h2 class="text-xl font-semibold text-[#06437e] mb-3">Contribuições e Impacto Esperado</h2>
+                <p class="text-sm">
                     Espera-se que o sistema de videoprovas não apenas promova a equidade na avaliação, mas também empodere os estudantes surdos, oferecendo-lhes a oportunidade de se destacarem em sua própria língua. Além disso, esta pesquisa pretende fornecer subsídios teóricos e práticos para a formulação de políticas e práticas pedagógicas verdadeiramente inclusivas. O resultado deste trabalho será um software acessível e eficaz, que abrirá novos horizontes para a avaliação em Libras e contribuirá para a construção de uma educação mais justa e igualitária.
                 </p>
             </section>
 
             <section id="autor" class="content-section bg-white p-6 rounded-lg shadow-md">
-                <h2 class="text-2xl font-semibold text-[#06437e] mb-4">Autor</h2>
-                <p class="mb-2"><strong>Flávio Jussiê Ribeiro Fernandes</strong></p>
-                <div class="text-gray-700">
+                <h2 class="text-xl font-semibold text-[#06437e] mb-3">Autor</h2>
+                <p class="mb-1 text-sm"><strong>Flávio Jussiê Ribeiro Fernandes</strong></p>
+                <div class="text-gray-700 text-sm">
                     <h4 class="font-semibold mt-2">Orientação:</h4>
                     <ul class="list-disc list-inside ml-4">
                         <li>Orientador: Prof. Dr. Leonardo Oliveira Moreira (UFC)</li>
@@ -319,9 +319,9 @@
         </main>
     </div>
 
-    <footer class="bg-gradient-to-r from-[#06437e] to-[#45a2de] text-white text-center py-4 mt-auto">
-        <p class="text-sm">&copy; 2025 AvaLIBRAS - Projeto de Mestrado (Prof. Flávio Jussiê) - Versão 1.0</p>
-        <p class="text-xs mt-1">Desenvolvido com base na pesquisa de mestrado de Flávio Jussiê Ribeiro Fernandes, incorporando conceitos e funcionalidades do Criador AvaLIBRAS e Aplicador AvaLIBRAS.</p>
+    <footer class="bg-gradient-to-r from-[#06437e] to-[#45a2de] text-white text-center py-3 mt-auto">
+        <p class="text-xs">&copy; 2025 AvaLIBRAS - Projeto de Mestrado (Prof. Flávio Jussiê) - Versão 1.0</p>
+        <p class="text-xs mt-0.5">Desenvolvido com base na pesquisa de mestrado de Flávio Jussiê Ribeiro Fernandes, incorporando conceitos e funcionalidades do Criador AvaLIBRAS e Aplicador AvaLIBRAS.</p>
     </footer>
 
     <button id="scrollToTopBtn" title="Voltar ao Topo">
@@ -370,47 +370,26 @@
         // Script para o botão "Voltar ao Topo"
         const scrollToTopBtn = document.getElementById('scrollToTopBtn');
         
-        // Tenta selecionar o contêiner principal que tem rolagem.
-        // Se o layout da página mudar, este seletor pode precisar ser ajustado.
-        let scrollableElement = document.querySelector('.container.mx-auto.flex.flex-col.lg\\:flex-row'); 
-        if (!scrollableElement || getComputedStyle(scrollableElement).overflowY === 'visible') {
-            // Fallback se o contêiner principal não for encontrado ou não for o elemento de rolagem principal.
-            // Isso pode acontecer se a estrutura do DOM for diferente ou se a rolagem for gerenciada pelo body/html.
-            scrollableElement = window; // Usa a janela como elemento de rolagem
-        }
-
-
-        const scrollHandler = () => {
-            let scrollTopValue = 0;
-            if (scrollableElement === window) {
-                scrollTopValue = window.pageYOffset || document.documentElement.scrollTop;
-            } else {
-                scrollTopValue = scrollableElement.scrollTop;
-            }
-
-            if (scrollTopValue > 300) { // Mostra o botão após rolar 300px
+        // Função simplificada para mostrar/ocultar botão
+        window.addEventListener('scroll', function() {
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            
+            if (scrollTop > 300) {
                 scrollToTopBtn.style.display = "block";
-                setTimeout(() => scrollToTopBtn.style.opacity = "1", 10);
+                scrollToTopBtn.style.opacity = "1";
             } else {
                 scrollToTopBtn.style.opacity = "0";
-                setTimeout(() => scrollToTopBtn.style.display = "none", 300);
+                setTimeout(() => {
+                    if (scrollToTopBtn.style.opacity === "0") {
+                        scrollToTopBtn.style.display = "none";
+                    }
+                }, 300);
             }
-        };
-        
-        if (scrollableElement) {
-             scrollableElement.addEventListener('scroll', scrollHandler);
-        }
+        });
 
-
+        // Função para voltar ao topo
         scrollToTopBtn.addEventListener('click', function() {
-            if (scrollableElement === window) {
-                 window.scrollTo({ top: 0, behavior: 'smooth' });
-            } else if (scrollableElement) {
-                scrollableElement.scrollTo({ top: 0, behavior: 'smooth' });
-            } else { 
-                 document.body.scrollTo({ top: 0, behavior: 'smooth' }); 
-                 document.documentElement.scrollTo({ top: 0, behavior: 'smooth' }); 
-            }
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         });
 
     </script>
